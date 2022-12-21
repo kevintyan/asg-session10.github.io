@@ -1,0 +1,30 @@
+INSTALASI PROJECT LARAVEL "asg-session10"
+Nama: Kevin Tyan Ahsan
+NIM: 2440053900
+
+===============================================================================================
+
+1. Buat database di phpmyadmin dengan nama "asg_session10"
+2. ubah isi DB_DATABASE pada file .env dengan nama db tersebut
+3. library yang saya gunakan adalah Socialite, maka diperlukan instalasi pada terminal "composer require laravel/socialite"
+4. memasukan client_id dan client_secret pada file .env (ada di paling bawah)
+5. migrasi table "php artisan migrate"
+6. nyalakan web "php artisan serve"
+7. buka web lalu tambahkan url "/login" untuk memasuki halaman utama
+8. maka register/login dapat dilakukan secara manual ataupun lewat google/github
+
+
+NOTE:
+Login lewat Github tidak dapat berjalan dengan sempurna (hanya dapat mengambil emailnya saja)
+
+
+
+
+
+
+
+===============================================================================================
+GOOGLE_CLIENT_ID="122044480820-08s2948nfh76ghmmjpd5dm8dvheoi9en.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET="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"
+GITHUB_CLIENT_ID="283528cb40c49e17b19c"
+GITHUB_CLIENT_SECRET="cbc276f07bfff262e9aebfc33eb5cddd9c3b1ecb"
